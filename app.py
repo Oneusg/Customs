@@ -33,7 +33,7 @@ def parse_base_duty(value):
         return 0.0, str_val
 
 def main():
-    st.title("U.S. Duty & Tariff Calculator")
+    st.title("U.S. Duty & Tariff Calculator (BETA)")
     st.write("Enter a valid HTS code (full or partial) to get applicable duties.")
 
     hts_data, sec301_data = load_data()
