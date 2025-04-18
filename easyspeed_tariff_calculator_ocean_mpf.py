@@ -46,7 +46,7 @@ def calculate_hmf(total_value):
 def main():
     st.set_page_config(page_title="Easy Speed Tariff Calculator", layout="centered")
     st.image("easyspeedlogo.png", width=160)
-    st.title("U.S. Duty & Tariff Calculator (BETA)")
+    st.title("U.S. Duty & Tariff Calculator (BETA 2)")
     st.write("Enter one or more HTS codes to get applicable duties.")
 
     hts_data, sec301_data = load_data()
